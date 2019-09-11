@@ -1,0 +1,17 @@
+{
+  "name": "lw_logger",
+  "version": "0.0.1",
+  "scripts": {
+    "preinstall": "npm install -g jshint",
+    "logger": "jshint --reporter node_modules/jshint-simple-log/index.js dev/"
+  },
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "create-html": "^4.1.0",
+    "jshint": "^2.10.2",
+    "jshint-stylish": "^2.2.1"
+  },
+  "devDependencies": {
+    "jshint-simple-log": "^0.1.0"
+  }
+}
